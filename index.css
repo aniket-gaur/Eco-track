@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #a8e6cf, #dcedc1);
+    height: 100vh;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #388e3c; /* Header background color */
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-right {
+    display: flex;
+ justify-content: space-between;
+ gap:40px;
+   
+}
+
+.header-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: white;
+    color: #388e3c;
+}
+
+ 
+.container {
+    position: absolute;
+    top:30%;
+    right:30%;
+    
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #388e3c;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.label_title {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 900;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #388e3c;
+    outline: none;
+}
+
+.login-button {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #2e7d32;
+}
+
+.google-login-button {
+    background-color: #eff5f0; /* Google red */
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.google-login-button:hover {
+    background-color: grey /* Darker red for hover */
+}
+
+.new-account {
+    margin-top: 15px;
+}
+
+.new-account a {
+    color: #388e3c;
+    text-decoration: none;
+}
+
+.new-account a:hover {
+    text-decoration: underline;
+}

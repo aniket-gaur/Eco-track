@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EcoTrack</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <h1 style="color: black; font-weight: 900;">EcoTrack</h1>
+        </div>
+        <div class="header-right">
+            <button class="header-button">About</button>
+            <button class="header-button">Contact</button>
+            <a href="signup.html" class="header-button">Signup</a>
+        </div>
+    </header>
+    <div id="login_div">
+        <div class="container">
+            <h1>LOGIN</h1>
+            <form action="dashboard.html" method="POST">
+                <div class="input-group">
+                    <label for="userid" class="label_title">User  ID :</label>
+                    <input type="text" id="userid" name="userid" required>
+                </div>
+                <div class="input-group">
+                    <label for="password" class="label_title">Password :</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+            <button class="google-login-button">Login with Google</button>
+            <p class="new-account"  style="font-weight: 900;">New user?  <a href="signup.html">Create a new account</a></p>
+        </div>
+    </body>
+</div>
+
+</html>
